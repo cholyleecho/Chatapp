@@ -1,0 +1,115 @@
+.hero-wrapper{
+    background-color: white;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+h3{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+
+}
+.hero-more-img{
+    position: relative;
+}
+.hero-more-img .Ellipse-2{
+    position: absolute;
+    left: 30px;
+}
+.hero-more-img .Ellipse-3{
+    position: absolute;
+    left: 50px;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+}
+.hero-img-wrap {
+    position: relative;    
+}
+
+.hero-img-wrap .img-third{
+    /* position: absolute;
+    right: 90px;
+    width: 60%;
+    top: 50px; */
+    float: right;
+}
+.hero-img-wrap .img-second{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 60%;
+
+}
+.hero-img-wrap .img-first{
+    position: absolute;
+    right: 100px;
+    top: -20px;
+    max-width: 100%;
+    width: 50%;
+}
+
+.text-box-left{
+    /* background-color: red; */
+    width: 400px;
+    position: absolute;
+    background: #fff;
+    font-size: 14px;
+    /* bottom: 0; */
+    left: -90px;
+    top: 280px;
+    /* border: 2px solid; */
+}
+.text-box-right{
+    /* background-color: red; */
+    width: 300px;
+    font-size: 13px;
+    position: absolute;
+    background: #fff;
+    right: 0px;
+    top: 250px;
+}
+
+.features-wrapper{
+    background-color: #fafafa;
+}
+.features-wrapper .features-box{
+    background-color: #fff;
+}
+
+/* features-1-wrapper */
+.features-1-wrapper .feature-wrapper{
+    position: relative;
+}
+
+.features-1-wrapper .feature-wrapper .call-back-top{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* features-2-wrapper */
+.features-2-wrapper{
+    background-color: #fafafa;
+}
+
+/* sub-footer */
+.sub-footer a{
+    text-decoration: none;
+    color: gray;
+}
+.sub-footer a:hover{
+    color: rgb(51, 51, 51);
+}
+.sub-footer p{
+    font-size: 13px;
+    color: gray;
+}
